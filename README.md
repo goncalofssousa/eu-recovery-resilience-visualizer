@@ -29,23 +29,17 @@ The UI layout, charts, and workflows were engineered from the ground up to satis
 * **Node.js** (v16.x or higher) — Required for running the package manager (`npm`) and execution tools (`npx`).
 
 ### Installation & Setup
-1. Clone the repository:
-```bash
-git clone [https://github.com/your-username/eu-recovery-resilience-visualizer.git](https://github.com/your-username/eu-recovery-resilience-visualizer.git)
-cd eu-recovery-resilience-visualizer
-```
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Running server
+2. Running server
 ```bash
 npx json-server db.json
 ```
 
-4. Running project
+3. Running project
 ```bash
 npm run dev
 ```
